@@ -1772,6 +1772,395 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0C487F652118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = NO;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = QADeployment;
+		};
+		0C487F662118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "$(BUILT_PRODUCTS_DIR)/private";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.cocoalumberjack.ios;
+				PRODUCT_NAME = CocoaLumberjack;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(BUILT_PRODUCTS_DIR)/include";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = QADeployment;
+		};
+		0C487F672118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Framework/Lumberjack/CocoaLumberjack-Prefix.pch";
+				INFOPLIST_FILE = "Framework/Lumberjack/CocoaLumberjack-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = Framework/Lumberjack/CocoaLumberjack.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.cocoalumberjack.ios;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = QADeployment;
+		};
+		0C487F682118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Framework/Lumberjack/CocoaLumberjack-Prefix.pch";
+				INFOPLIST_FILE = "Framework/Lumberjack/CocoaLumberjack-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = Framework/Lumberjack/CocoaLumberjack.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.cocoalumberjack.macos;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = QADeployment;
+		};
+		0C487F692118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Framework/Lumberjack/CocoaLumberjack-Prefix.pch";
+				INFOPLIST_FILE = "Framework/Lumberjack/CocoaLumberjack-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = Framework/Lumberjack/CocoaLumberjack.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.cocoalumberjack.tvos;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+			};
+			name = QADeployment;
+		};
+		0C487F6A2118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Framework/Lumberjack/CocoaLumberjack-Prefix.pch";
+				INFOPLIST_FILE = "Framework/Lumberjack/CocoaLumberjack-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = Framework/Lumberjack/CocoaLumberjack.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.cocoalumberjack.watchos;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = QADeployment;
+		};
+		0C487F6B2118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "Framework/Lumberjack/CocoaLumberjackSwift-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.cocoalumberjack.swift.ios;
+				PRODUCT_NAME = CocoaLumberjackSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = QADeployment;
+		};
+		0C487F6C2118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "Framework/Lumberjack/CocoaLumberjackSwift-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.cocoalumberjack.swift.macos;
+				PRODUCT_NAME = CocoaLumberjackSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = QADeployment;
+		};
+		0C487F6D2118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "Framework/Lumberjack/CocoaLumberjackSwift-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.cocoalumberjack.swift.tvos;
+				PRODUCT_NAME = CocoaLumberjackSwift;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+			};
+			name = QADeployment;
+		};
+		0C487F6E2118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "Framework/Lumberjack/CocoaLumberjackSwift-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.cocoalumberjack.swift.watchos;
+				PRODUCT_NAME = CocoaLumberjackSwift;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = QADeployment;
+		};
+		0C487F6F2118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Framework/iOSLibStaticTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deusty.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = QADeployment;
+		};
+		0C487F702118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Framework/FmwkTest/FmwkTest-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Framework/FmwkTest/FmwkTest-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deusty.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = QADeployment;
+		};
+		0C487F712118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Framework/iOSSwift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deusty.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = QADeployment;
+		};
+		0C487F722118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Framework/SwiftTest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deusty.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = QADeployment;
+		};
+		0C487F732118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = Framework/tvOSSwiftTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.tvOSSwiftTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = QADeployment;
+		};
+		0C487F742118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IBSC_MODULE = watchOSSwiftTest_Extension;
+				INFOPLIST_FILE = Framework/watchOSSwiftTest/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.iOSSwiftTest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = QADeployment;
+		};
+		0C487F752118E3480007CAB2 /* QADeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Framework/watchOSSwiftTest Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.iOSSwiftTest.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = QADeployment;
+		};
 		18F3BF0D1A81D8B700692297 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2542,6 +2931,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18F3BF0D1A81D8B700692297 /* Debug */,
+				0C487F6C2118E3480007CAB2 /* QADeployment */,
 				18F3BF0E1A81D8B700692297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2551,6 +2941,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18F3BF7C1A81DD2E00692297 /* Debug */,
+				0C487F712118E3480007CAB2 /* QADeployment */,
 				18F3BF7D1A81DD2E00692297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2560,6 +2951,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18F3BFE91A81E06E00692297 /* Debug */,
+				0C487F662118E3480007CAB2 /* QADeployment */,
 				18F3BFEA1A81E06E00692297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2569,6 +2961,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18F3C0131A81E0C800692297 /* Debug */,
+				0C487F6F2118E3480007CAB2 /* QADeployment */,
 				18F3C0141A81E0C800692297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2578,6 +2971,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19190EE41B84D812008D059E /* Debug */,
+				0C487F6A2118E3480007CAB2 /* QADeployment */,
 				19190EE51B84D812008D059E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2587,6 +2981,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19190EF11B84D826008D059E /* Debug */,
+				0C487F6E2118E3480007CAB2 /* QADeployment */,
 				19190EF21B84D826008D059E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2596,6 +2991,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19406BED1BDBABFF001194DC /* Debug */,
+				0C487F732118E3480007CAB2 /* QADeployment */,
 				19406BEE1BDBABFF001194DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2605,6 +3001,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19D90B241BBFA9DB00947169 /* Debug */,
+				0C487F692118E3480007CAB2 /* QADeployment */,
 				19D90B251BBFA9DB00947169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2614,6 +3011,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19D90B331BBFAA7500947169 /* Debug */,
+				0C487F6D2118E3480007CAB2 /* QADeployment */,
 				19D90B341BBFAA7500947169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2623,6 +3021,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19EC14841B84D135000EC2E7 /* Debug */,
+				0C487F752118E3480007CAB2 /* QADeployment */,
 				19EC14851B84D135000EC2E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2632,6 +3031,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19EC14821B84D135000EC2E7 /* Debug */,
+				0C487F742118E3480007CAB2 /* QADeployment */,
 				19EC14831B84D135000EC2E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2641,6 +3041,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19FF46071B8B4CF400B43179 /* Debug */,
+				0C487F672118E3480007CAB2 /* QADeployment */,
 				19FF46081B8B4CF400B43179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2650,6 +3051,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19FF46191B8B4D1400B43179 /* Debug */,
+				0C487F6B2118E3480007CAB2 /* QADeployment */,
 				19FF461A1B8B4D1400B43179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2659,6 +3061,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55CCBF1819BA679200957A39 /* Debug */,
+				0C487F722118E3480007CAB2 /* QADeployment */,
 				55CCBF1919BA679200957A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2668,6 +3071,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCB3186414EB418E001CFBEE /* Debug */,
+				0C487F652118E3480007CAB2 /* QADeployment */,
 				DCB3186514EB418E001CFBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2677,6 +3081,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCB3186714EB418E001CFBEE /* Debug */,
+				0C487F682118E3480007CAB2 /* QADeployment */,
 				DCB3186814EB418E001CFBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2686,6 +3091,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCB318E014ED6C3B001CFBEE /* Debug */,
+				0C487F702118E3480007CAB2 /* QADeployment */,
 				DCB318E114ED6C3B001CFBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
